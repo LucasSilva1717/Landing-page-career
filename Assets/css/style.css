@@ -359,6 +359,26 @@ h3 {
 .sobre {
     background-color: var(--page);
     color: var(--any);
+    padding-bottom: 8rem;
+}
+
+.container-sobre {
+    max-width: 120rem;        
+    margin: 0 auto; 
+    padding: 4rem var(--gap); 
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;   
+}
+.texto-sobre {
+    font-size: 1.8rem;        
+    line-height: 1.5;         
+    text-indent: 0;         
+    text-align: left;;
+}
+
+.texto-sobre p {
+    margin-bottom: 2.5rem;
 }
 
 .contato {
