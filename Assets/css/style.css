@@ -254,7 +254,6 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: var(--any);
-
 }
 
 .projeto-tech {
@@ -385,6 +384,89 @@ h3 {
     background-color: var(--secondary-color);
     color: var(--any);
 }
+
+.box-contato {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: var(--gap);
+    max-width: 120rem;
+    margin:auto;
+    padding: 1rem var(--gap)
+}
+
+.card-contato{
+    background-color: var(--page);
+    border-bottom: 3px solid transparent;
+    padding: 4rem 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+    max-width: none;
+    border-radius: 9px;
+    width: 100%;
+}
+
+.card-contato:hover {
+    border-bottom: 3px solid var(--cor-titulo);
+    transform: translateY(-2px);
+}
+
+.icone-contato img {
+    margin: auto;
+    height: 7.5rem; 
+    width: auto;  
+    object-fit: contain;
+    display: block;
+}
+
+.card-rs{
+    background-color: var(--page);
+    border-bottom: 3px solid transparent;
+    padding: 4rem 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+    max-width: none;
+    border-radius: 9px;
+    width: 100%;
+}
+
+.card-rs:hover {
+    border-bottom: 3px solid var(--cor-titulo);
+    transform: translateY(-2px);
+}
+.box-rs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: var(--gap);
+    max-width: 120rem;
+    margin:auto;
+    padding: 1rem var(--gap);
+}
+
+.card-contato a, .card-rs a {
+    color: var(--any); 
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+    word-break: break-all;
+}
+
+.icone-rs img {
+    margin: auto;
+    height: 7.5rem; 
+    width: auto;  
+    object-fit: contain;
+    display: block;
+}
+
+
 h4 {
     text-align: center;
     font-size: 60px;
